@@ -3,6 +3,8 @@
 ## Create a project
 Create a TypeScript project and set up eslint.
 ```
+mkdir learning-typescript
+cd learning-typescript
 npm init
 npm install --save-dev typescript eslint @types/node
 npx eslint --init
