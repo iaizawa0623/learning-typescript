@@ -1,0 +1,35 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "description": "Leaning TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "run": "node ./dist/index.js",
+    "lint:eslint": "eslint",
+    "fix:eslint": "eslint --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iaizawa0623/learning-typescript.git"
+  },
+  "author": "Ibuki Aizawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iaizawa0623/learning-typescript/issues"
+  },
+  "homepage": "https://github.com/iaizawa0623/learning-typescript#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "eslint": "^8.28.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.11",
+    "typecript": "^0.0.1-security",
+    "typescript": "^4.9.3"
+  }
+}
