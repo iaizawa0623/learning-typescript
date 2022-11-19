@@ -1,14 +1,21 @@
-# learning-typescript
+# Hello, TypeScript!
 
-# init
+## Create a project
+Create a TypeScript project and set up eslint.
 ```
 npm init
 npm install --save-dev typescript eslint @types/node
-touch tsconfig.json
 npx eslint --init
 ```
 
-## tsconfig.json
+## TypeScript configuration
+
+### Create tsconfig
+```
+touch tsconfig.json
+```
+
+### Sample of tsconfig.json
 ```
 {
     "compilerOptions": {
@@ -24,26 +31,20 @@ npx eslint --init
     ]
 }
 ```
+For more information. (https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#handbook-content)
 
-## add scripts to package.json
-```
-"build": "./node_modules/.bin/tsc",
-"lint:eslint": "eslint",
-"fix:eslint": "eslint --fix",
-```
-
-# src
+## Create src/index.ts
 ```
 mkdir src
 cat "console.log('Hello, TypeScript!')" > src/index.ts
 ```
 
-# build
+## Build
 ```
-npm run build
+./node_modules/.bin/tsc
 ```
 
-# run
+## Run
 ```
 node ./dist/index.js
 ```
