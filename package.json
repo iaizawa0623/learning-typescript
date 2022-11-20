@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
-    "lint:eslint": "eslint",
-    "fix:eslint": "eslint --fix",
+    "run": "./node_modules/.bin/tsc && node ./dist/index.js",
+    "lint": "eslint .",
+    "fix": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/iaizawa0623/learning-typescript#readme",
   "devDependencies": {
+    "@types/mime-types": "^2.1.1",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "eslint": "^8.28.0",
@@ -29,6 +31,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
     "typecript": "^0.0.1-security",
+    "typedoc": "^0.23.21",
     "typescript": "^4.9.3"
   }
 }
