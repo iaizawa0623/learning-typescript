@@ -38,7 +38,7 @@ For more information. (https://www.typescriptlang.org/docs/handbook/tsconfig-jso
 ## Create src/index.ts
 ```
 mkdir src
-cat "console.log('Hello, TypeScript!')" > src/index.ts
+echo "console.log('Hello, TypeScript!')" > src/index.ts
 ```
 
 ## Build
